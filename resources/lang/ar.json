@@ -1,0 +1,20 @@
+{
+    "Login": "تسجيل الدخول",
+    "E-Mail Address": "عنوان البريد الالكترونى",
+    "Password": "كلمة السر",
+    "Remember Me": "تذكرنى!",
+    "Register": "انشاء حساب جديد",
+    "Forgot Your Password?": "نسيت كلمة السر؟",
+    "Reset Password":"تعديل كلمة المرور",
+    "Confirm Password":"تاكيد كلمة المرور",
+    "Send Password Reset Link":"ارسال رابط تغير كلمة المرور",
+    "payed": "مدفوعة",
+    "pending": "معلقة",
+    "cancelled": "ملغية",
+    "executed": "نفذت",
+    "in-progress": "قيد العمل",
+    "under-review": "قيد المراجعة",
+    "failed": "غير ناجحة",
+    "commission": "عمولة",
+    "amount": "القيمة المالية"
+}

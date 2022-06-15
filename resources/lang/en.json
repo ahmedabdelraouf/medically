@@ -1,0 +1,20 @@
+{
+    "Login": "Login",
+    "E-Mail Address": "E-Mail Address",
+    "Password": "Password",
+    "Remember Me": "Remember Me",
+    "Register": "Register",
+    "Forgot Your Password?": "Forgot Your Password?",
+    "Reset Password":"Reset Password",
+    "Confirm Password":"Confirm Password",
+    "Send Password Reset Link":"Send Password Reset Link",
+    "payed": "Payed",
+    "pending": "Pending",
+    "cancelled": "Cancelled",
+    "executed": "Executed",
+    "in-progress": "In Progress",
+    "under-review": "Under Review",
+    "failed": "Failed",
+    "commission": "Commission",
+    "amount": "Amount"
+}

@@ -1,0 +1,56 @@
+{
+    id: "8ac7a4a17e206f51017e214beedf5150",
+    paymentType: "DB",
+    paymentBrand: "MADA",
+    amount: "180.00",
+    currency: "SAR",
+    descriptor: "3028.3734.2596 medical_egy MADA",
+    merchantTransactionId: "378",
+    result: {
+        code: "000.100.110",
+        description: "Request successfully processed in 'Merchant in Integrator Test Mode'"
+    },
+    resultDetails: {
+        ConnectorTxID1: "8ac7a4a17e206f51017e214beedf5150"
+    },
+    card: {
+        bin: "529741",
+        binCountry: "SA",
+        last4Digits: "2387",
+        holder: "ahmed abdo",
+        expiryMonth: "10",
+        expiryYear: "2022",
+        issuer: {
+            bank: "RIYAD BANK",
+            website: "HTTP://WWW.RIYADBANK.COM"
+        },
+        type: "DEBIT",
+        level: "STANDARD",
+        country: "SA",
+        maxPanLength: "16",
+        binType: "PERSONAL",
+        regulatedFlag: "N"
+    },
+    customer: {
+        email: "user1637740899@medical_egy.com",
+        ip: "197.57.119.254",
+        ipCountry: "EG"
+    },
+    billing: {
+        street1: "Reyad street 1",
+        city: "Reyad",
+        state: "REYAD",
+        postcode: "1265",
+        country: "SA"
+    },
+    customParameters: {
+        SHOPPER_EndToEndIdentity: "6621c1627128c93aa4d9c523c01b1c99ee2ec275b5bd41fb14da6ee4c28bfbe6",
+        CTPE_DESCRIPTOR_TEMPLATE: ""
+    },
+    risk: {
+        score: "0"
+    },
+    buildNumber: "4146679faa94a27e23eaaba59541b0432f63e37d@2021-12-28 09:40:34 +0000",
+    timestamp: "2022-01-03 18:55:34+0000",
+    ndc: "E292EF64C5E85E13884CCFAA924A5AD3.uat01-vm-tx04"
+}
