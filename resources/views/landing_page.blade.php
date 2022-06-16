@@ -6,7 +6,7 @@
     <meta name="keywords"
           content="app, app landing, app landing page, agency, startup, saas, startup template, saas template, app, app template, app website, clean app landing, app landing, app landing template, business, creative, landing, marketing, product, software, software landing, Simple App Landing, webapp">
     <meta name="author" content="medical_egy">
-    <title>medical_egy</title>
+    <title>Medical EGY</title>
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min-rtl.css') }}">
     <link rel="stylesheet" href="{{ asset('css/bootstrap-dropdownhover.min.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
