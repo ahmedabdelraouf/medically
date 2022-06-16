@@ -21,7 +21,7 @@ class UserFactory extends Factory
      */
     public function definition()
     {
-        $typeArr = ['user', 'client'];
+        $typeArr = ['user'];
         $genderArr = ['male', 'female'];
         return [
             'name' => $this->faker->name,

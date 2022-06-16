@@ -1,23 +1,15 @@
 <?php
 
-
 namespace Dev\Domain\Service;
 
-
 use Dev\Domain\Service\Abstracts\AbstractService;
-use Dev\Infrastructure\Model\Image;
-use Dev\Infrastructure\Model\UserVehicle;
 use Dev\Infrastructure\Repository\Abstracts\AbstractRepository;
-use Dev\Infrastructure\Repository\UserVehicleRepository;
+use Dev\Infrastructure\Repository\DoctorQuestionRepository;
 
 class DoctorQuestionService extends AbstractService
 {
 
-    /**
-     * UserService constructor.
-     * @param UserVehicleRepository $repository
-     */
-    public function __construct(UserVehicleRepository $repository)
+    public function __construct(DoctorQuestionRepository $repository)
     {
         parent::__construct($repository);
     }
@@ -61,7 +53,7 @@ class DoctorQuestionService extends AbstractService
             $data['driving_license'] = $userVehicle->driving_license;
         }
         unset($data['images']);
-        if ($userVehicle->update($data)){
+        if ($userVehicle->update($data)) {
             return $userVehicle;
         }
         return false;
@@ -86,8 +78,8 @@ class DoctorQuestionService extends AbstractService
 
     public function getStatistics()
     {
-        return[
-            'total_vehicles_count'=>$this->repository->count(),
+        return [
+            'total_vehicles_count' => $this->repository->count(),
         ];
     }
 
